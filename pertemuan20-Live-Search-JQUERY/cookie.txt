@@ -1,0 +1,12 @@
+# cookie mirip seperti session, yaitu informasi yang bisa diakses dimana saja dihalaman web kita 
+- cookie disimpan di client sehingga client dapat memanipulasi cookie yaitu dapat menambah, mengedit, menghapus 
+- penggunaan cookie yaitu untuk: 
+    1. mengenali user 
+    2. shopping cart 
+    3. personalisasi (contoh youtube bisa mengetahui/ menyarankan video kesukaan kita)
+    4. bisa menjadi celah keamanan 
+
+- menggunakan $_COOKIE dan untuk membuat cookie memerlukan setcookie() 
+- berlaku satu session sama seperti session. ada waktu expirenya, jika browser di close atau komputer di restart sessi nya hilang
+- kita bisa memberi tahu browser mau berapa lama umur dari cookienya
+- 

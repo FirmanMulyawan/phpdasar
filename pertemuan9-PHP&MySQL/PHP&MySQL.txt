@@ -1,0 +1,6 @@
+======== 
+- untuk menghubungkan PHP dan MySQL ada beberapa cara:
+    1. Ekstensi MySQL   ==>versi lama sudah ngga di update, banyak celah keamanan
+    2. Ekstensi MySQLi  ==> 
+    3. PDO (PHP Data Object)   ==> dengan PDO bisa terhubung ke banyak database
+    

@@ -1,0 +1,14 @@
+# login system 
+1. registrasi 
+2. login 
+3. session (membuat user tidak bisa mengakses halaman login tertentu sebelum user login)
+4. cookie 
+
+
+
+- session = mekanisme penyimpanan kedalam variabel agar bisa digunakan di lebih dari satu halaman.
+- session sangat erat dengan cookie 
+- informasi pada session disimpan di server, cookie disimpan client (didalam browser). 
+- session ditangani oleh variabel super global yaitu $_SESSION
+- untuk mengisi data kedalam $_SESSION memiliki syarat untuk menjalankan session_start() 
+- nilai session akan tetap ada sampai satu sesi yaitu ketika browser di close atau restart komputer

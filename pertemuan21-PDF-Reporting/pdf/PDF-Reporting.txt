@@ -1,0 +1,6 @@
+membuat PDF reporting
+1. fitur bawaan browser 
+2. library PHP 
+    - FPDF 
+    - mPDF 
+    - DOMPDF 

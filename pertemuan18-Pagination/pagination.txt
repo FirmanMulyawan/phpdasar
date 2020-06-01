@@ -1,0 +1,1 @@
+# pagination = teknik untuk membatasi data yang tampil di halaman web kita menjadi beberapa halaman. 

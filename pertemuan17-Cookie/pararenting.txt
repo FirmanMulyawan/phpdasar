@@ -1,0 +1,7 @@
+# Upload gambar termasuk file handling (bagaimana cara menangani file menggunakan sintaks PHP)
+# File handling
+- <input type ="file" 
+- enctype (encoding type)
+- $_FILES (super global PHP untuk menangani input type file)
+- move_uploaded_file (fungsi untuk memindahkan file yang kita punya di komputer ke dalam server)
+- 

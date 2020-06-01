@@ -1,0 +1,48 @@
+body {
+  background-color: #ebecf0;
+  font-family: sans-serif;
+}
+.login-box {
+  width: 400px;
+  margin: 50px 0 0 560px;
+  /* background-color: red; */
+}
+ul li {
+  list-style-type: none;
+}
+h1 {
+  color: #a9a9a9;
+  font-weight: 300;
+  font-weight: bold;
+  text-align: center;
+}
+input,
+button {
+  border: 0;
+  width: 80%;
+  outline: 0;
+  padding: 16px;
+  font-size: 17px;
+  border-radius: 25px;
+  margin: 15px 0 0 20px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
+
+input:focus {
+  box-shadow: inset 1px 2px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button {
+  color: red;
+  font-weight: bold;
+  margin: 25px 0 0 40px;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+}
+button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}

@@ -1,0 +1,69 @@
+============= Pengertian =================
+# data = Representasi Fakta di dunia nyata
+# database = Data didalam DBMS 
+# Jenis DBMS = Relational DBMS (c: MySQL), Hiierarchical DBMS, Network DBMS, NoSQL DBMS
+# DBMS = oracle, MySQL, SQL Server, PostgreSQL, MongoDB
+
+
+
+-------------------------------------
+| Nama   | NRP   | Email  | Jurusan |  => Record
+-------------------------------------
+|        |       |        |         |
+-------------------------------------
+|        |       |        |         |
+-------------------------------------
+|        |       |        |         |
+-------------------------------------
+    ^
+   field
+
+# Primary Key = Sebuah data, yang dapat merepresentasikan satu baris record secara unik (tidak boleh ada data yang sama)
+# Auto Increment = menambahkan 1 record kepada filed yang baru masuk
+
+
+# istilah - istilah dalam database
+- filed / Column
+- record / Row 
+- Key (Primary key, Foreign Key)
+- Auto Increment
+- Relationship
+- Normalization 
+==========================================
+
+
+=========== MySQL =========================
+- C:\xampp\mysql\bin\mysql ==>(masuk sebagai tamu)
+- C:\xampp\mysql\bin>mysql -u root -p ==>(masuk sebagai admin) 
+- username=root, password=' '. default password adalah kosong
+- type data dalam database (char, varchar, int, float)
+
+============= Query Database
+- create database nama_database;   ==>(membuat database)
+- use nama_database;   ==>(menggunakan database)
+- show databases;   ==>(menampilkan database)
+- create table nama_table;   ==>(membuat table)
+        - create table mahasiswa (
+            -> id int primary key auto_increment,
+            -> nama varchar(100),
+            -> nrp char(9),
+            -> email varchar(100),
+            -> gambar varchar(100)
+            -> );
+- show tables;   ==>(melihat table di database apa aja)
+- describe nama_table;   ==>(melihat struktur tabelnya)
+- insert into nama_table values ('', 'Sandhika Galih', '043040023', 'sandhikagalih@gmail.com', 'Teknik Informatika', 'sandhika.jpeg');     ==> (memasukkan data ke tabel)
+- select * from nama_table;    ==> ( menampilkan (* memilih semua field) tabel )
+- select field1, field2 from nama_table;    ==>(jika ingin menampilkan hanya beberapa field dari tabel)
+- selct * from nama_table where nrp = '153030321';   ==>(jika ingin menampilkan dengan kondisi tertentu)
+- update mahasiswa set jurusan = 'Teknik Industri' where id = 2;    ==>(jika ingin merubah field tertentu dengan kondisi tertentu )
+- delete from nama_table where id = 3;   ==> (menghapus filed dengan kondisi tertentu)
+- drop table nama_table;    ==> (untuk menghapus SEMUA yang berhubungan dengan table tsb)
+- drop database nama_database;   ==> (untuk menghapus SEMUA yang berhubungan dengan database tsb)
+)
+==========================================
+
+
+========== http://localhost/phpmyadmin/ ==
+
+==========================================
